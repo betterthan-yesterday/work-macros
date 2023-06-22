@@ -2,11 +2,7 @@ import pyautogui as pag
 import time
 
 """
-time.sleep(5)
-pag.typewrite("Geeks For Geeks!")
-pag.press("enter")
-pag.hotkey("command","v")
-pag.hotkey("command","a")
+Use: Anywhere
 """
 
 # Start
