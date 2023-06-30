@@ -3,7 +3,7 @@ import pyautogui as pag
 """
 Use: Anywhere
 """
-
+pag.PAUSE = 0.15
 pag.hotkey("alt", "tab")
 
 # Fill query
@@ -29,3 +29,5 @@ for i in range(2):
 pag.write("2239")
 pag.press("tab", presses=2)
 pag.write("2241")
+
+pag.press("enter")
