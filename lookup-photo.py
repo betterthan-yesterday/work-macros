@@ -27,7 +27,10 @@ while True:
     data = chrome.find_elements(By.CLASS_NAME, "PSQRYRESULTSODDROW")
     text = []
     for dat in data[1:-1]:
-        text.append(dat.text)
+        if dat.text == " ":
+            text.append("0")
+        else:
+            text.append(dat.text)
 
     # Input into spreadsheet
     chrome.close()
