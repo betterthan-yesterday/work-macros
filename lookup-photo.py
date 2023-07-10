@@ -35,6 +35,7 @@ while True:
     # Input into spreadsheet
     chrome.close()
     pag.hotkey("alt", "tab")
+    pag.hotkey("ctrl", "left")
     for tex in text:
         pag.write(tex)
         pag.press("right")
