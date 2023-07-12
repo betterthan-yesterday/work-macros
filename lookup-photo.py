@@ -4,6 +4,10 @@ from selenium.webdriver.chrome.options import Options
 import pyautogui as pag
 import time
 
+"""
+Use: Anywhere
+"""
+
 pag.PAUSE = 0.5
 
 while True:
@@ -35,6 +39,7 @@ while True:
     # Input into spreadsheet
     chrome.close()
     pag.hotkey("alt", "tab")
+    pag.hotkey("ctrl", "left")
     for tex in text:
         pag.write(tex)
         pag.press("right")
