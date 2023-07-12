@@ -19,7 +19,7 @@ while True:
     pag.write("Baconator4000")
     pag.press("enter")
 
-    time.sleep(2)
+    time.sleep(1)
 
     pag.write(filename)
     pag.press("enter")
@@ -31,6 +31,7 @@ while True:
             text.append("0")
         else:
             text.append(dat.text)
+    print(text)
 
     # Input into spreadsheet
     chrome.close()
@@ -43,7 +44,6 @@ while True:
     # Repeat
     pag.press("down")
     pag.hotkey("ctrl", "c")
-    pag.hotkey("ctrl", "left")
     pag.hotkey("alt", "tab")
     pag.hotkey("ctrl", "v")
     pag.press("enter")
