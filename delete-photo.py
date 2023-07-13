@@ -16,6 +16,10 @@ while True:
     pag.hotkey("ctrl", "tab")
     pag.hotkey("ctrl", "a")
     pag.hotkey("ctrl", "v")
+    
+    pag.press("tab", presses=3)
+    pag.press("up", presses=7)
+    
     pag.press("enter")
 
     # Delete
