@@ -5,7 +5,7 @@ import time
 Use: 16:9 fullscreen browser
 """
 
-pag.PAUSE = 1
+pag.PAUSE = 0.1
 pag.FAILSAFE = True
 
 pag.hotkey("alt", "tab")
