@@ -20,7 +20,7 @@ while True:
 
     pag.write("polw")
     pag.press("tab")
-    pag.write("Baconator4000")
+    // pag.write("****")
     pag.press("enter")
 
     time.sleep(1)
