@@ -18,11 +18,6 @@ while True:
     chrome = webdriver.Chrome()
     chrome.get('https://csprd.mcmaster.ca/psc/prcsprd_3/EMPLOYEE/SA/q/?ICAction=ICQryNameURL=PUBLIC.MCM_PHOTO_LOOKUP')
 
-    pag.write("polw")
-    pag.press("tab")
-    pag.write("****")
-    pag.press("enter")
-
     time.sleep(1)
 
     pag.write(filename)
